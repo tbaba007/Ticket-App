@@ -1,0 +1,55 @@
+import { IMenu } from "./types";
+const path='/assets/images/'
+
+export const Menu:IMenu[]=[
+    {
+        id:1,
+        icon:`${path}Overview.svg`,
+        name:'Overview',
+        isActive:false,
+        path:'/overview'
+    },
+    {
+        id:2,
+        icon:`${path}Tickets.svg`,
+        name:'Tickets',
+        isActive:false,
+        path:'/tickets'
+    },
+    {
+        id:3,
+        icon:`${path}Ideas.svg`,
+        name:'Ideas',
+        isActive:false
+    },
+    {
+        id:4,
+        icon:`${path}Contacts.svg`,
+        name:'Contacts',
+        isActive:false
+    },
+    {
+        id:5,
+        icon:`${path}Agents.svg`,
+        name:'Agents',
+        isActive:false
+    },
+    {
+        id:6,
+        icon:`${path}Articles.svg`,
+        name:'Articles',
+        isActive:false
+    },
+    {
+        id:7,
+        icon:`${path}Settings.svg`,
+        name:'Settings',
+        isActive:false
+    },
+    {
+        id:8,
+        icon:`${path}Subscription.svg`,
+        name:'Subscription',
+        isActive:false
+    },
+]
